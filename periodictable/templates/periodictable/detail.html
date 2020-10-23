@@ -1,0 +1,41 @@
+{% extends 'periodictable/base.html' %}
+
+{% block content %}
+<div class="card" style="width: 24rem;">
+  <div class="card-header">
+    <h1 class="card-title">{{element.symbol}}({{element.atomic_number}})</h1>
+    <h3 class="card-title">{{element.name}}</h3>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+      <table class="table table-borderless">
+        <tbody>
+            <tr>
+              <td><b>Atomic Number:</b></td>
+              <td>{{ element.atomic_number }}</td>
+            </tr>
+            <tr>
+              <td><b>Period:</b></td>
+              <td>{{ element.period }}</td>
+            </tr>
+            <tr>
+              <td><b>Group:</b></td>
+              <td>{{ element.group }}</td>
+            </tr>
+            <tr>
+              <td><b>Phase:</b></td>
+              <td>{{ element.phase }}</td>
+            </tr>
+            <tr>
+              <td><b>Type:</b></td>
+              <td>{{ element.elem_type }}</td>
+            </tr>
+        </tbody>
+      </table>
+    </li>
+    <li class="list-group-item">
+      <a href="{% url 'periodictable:index' %}" class="btn btn-primary">Back</a>
+    </li>
+  </ul>
+</div>
+{% endblock %}
