@@ -1,38 +1,37 @@
 
 {% extends 'periodictable/base.html' %}
+{% load static %}
+{% load dicthash %}
 
 {% block content %}
 <table class="table table-borderless">
   <tbody>
       {% for element in elements %}
         {% if element.group == 1 %}
-        <tr>
+        <tr style="line-height: 0.5rem; min-height: 0.5rem; height: 0.5rem;">
         {% endif %}
         {% if element.period >= 6 and element.period <= 7 %}
           {% if element.atomic_number >= 57 and element.atomic_number <= 71 or element.atomic_number >= 89 and element.atomic_number <= 103 %}
             {% if element.atomic_number == 57 or element.atomic_number == 89 %}
             <td>
               <p>
-                <h4>&gt;{{element.atomic_number}}</h4>
+                <small style="font-size: 0.9rem;">{{element.atomic_number}}</small>
+                <img src="{% static 'icons/box-arrow-in-down.svg' %}" alt="" width="32" height="32" title="Bootstrap">
               </p>
             </td>
             {% endif %}
           {% else %}
-            <td class="border border-dark" style="background-color: #e3f2fd;">
-              <p>
-                {{ element.atomic_number }}
-                <h3>{{ element.symbol }}</h3>
-                <a href="{% url 'periodictable:detail' element.atomic_number %}">{{ element.name }}</a>
-              </p>
+            <td class="ml-0 mt-0 mr-0 mb-0 border border-dark" style="background-color: {{ type_colors|hash:element.elem_type }};">
+              <small style="font-size: 0.9rem;">{{ element.atomic_number }}</small>
+              <h4><a href="{% url 'periodictable:detail' element.atomic_number %}">{{ element.symbol }}</a></h4> 
+              <div class="mt-n1" style="font-size: 0.7rem;">{{ element.name }}</div>
             </td>
           {% endif %}
         {% else %}
-          <td class="border border-dark" style="background-color: #e3f2fd;">
-            <p>
-              {{ element.atomic_number }}
-              <h3>{{ element.symbol }}</h3>
-              <a href="{% url 'periodictable:detail' element.atomic_number %}">{{ element.name }}</a>
-            </p>
+          <td class="ml-0 mt-0 mr-0 mb-0 border border-dark" style="background-color: {{ type_colors|hash:element.elem_type }};">
+            <small style="font-size: 0.9rem;">{{ element.atomic_number }}</small>
+            <h4><a href="{% url 'periodictable:detail' element.atomic_number %}">{{ element.symbol }}</a></h4> 
+            <div class="mt-n1" style="font-size: 0.7rem;">{{ element.name }}</div>
           </td>
         {% endif %}
         {% if element.period == 1 and element.group == 1%}
@@ -55,19 +54,17 @@
         </tr>
         {% endif %}
       {% endfor %} 
-  
+      <tr><td><br></td></tr>
       {% for element in elements %}
         {% if element.period == 6 or element.period == 7 %}
           {% if element.group == 1 %}
-          <tr>
+            <tr style="line-height: 0.5rem; min-height: 0.5rem; height: 0.5rem;">
           {% endif %}
           {% if element.atomic_number >= 57 and element.atomic_number <= 71 or element.atomic_number >= 89 and element.atomic_number <= 103 %}
-            <td class="border border-info" style="background-color: #eeeeee;">
-              <p>
-                {{ element.atomic_number }}
-                <h3>{{ element.symbol }}</h3>
-                <a href="{% url 'periodictable:detail' element.atomic_number %}">{{ element.name }}</a>
-              </p>
+            <td class="ml-0 mt-0 mr-0 mb-0 border border-dark" style="background-color: {{ type_colors|hash:element.elem_type }};">
+              <small style="font-size: 0.9rem;">{{ element.atomic_number }}</small>
+              <h4><a href="{% url 'periodictable:detail' element.atomic_number %}">{{ element.symbol }}</a></h4> 
+              <div class="mt-n1" style="font-size: 0.7rem;">{{ element.name }}</div>
             </td>
           {% else %}
             <td>
