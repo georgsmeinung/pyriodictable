@@ -2,6 +2,7 @@
 {% extends 'periodictable/base.html' %}
 {% load static %}
 {% load dicthash %}
+{% load i18n %}
 
 {% block content %}
 <table class="table table-borderless">
@@ -16,7 +17,8 @@
             <td>
               <p>
                 <small style="font-size: 0.9rem;">{{element.atomic_number}}</small>
-                <img src="{% static 'icons/box-arrow-in-down.svg' %}" alt="" width="32" height="32" title="Bootstrap">
+                <br><br><small style="font-size: 0.9rem;">&gt;{{element.atomic_number|add:14}}</small>
+                <br><br><img src="{% static 'icons/box-arrow-in-down.svg' %}" alt="" width="32" height="32" title="Bootstrap">
               </p>
             </td>
             {% endif %}

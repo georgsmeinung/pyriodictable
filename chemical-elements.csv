@@ -1,119 +1,131 @@
-atomic_number,name,symbol,period,group,phase,type
-1,Hydrogenium,H,1,1,gas,Nonmetal
-2,Helium,He,1,18,gas,Noble Gas
-3,Lithium,Li,2,1,solid,Alkali Metal
-4,Beryllium,Be,2,2,solid,Alkaline Earth Metal
-5,Borium,B,2,13,solid,Metalloid
-6,Carbonium,C,2,14,solid,Nonmetal
-7,Nitrogenium,N,2,15,gas,Nonmetal
-8,Oxygenium,O,2,16,gas,Nonmetal
-9,Fluorum,F,2,17,gas,Halogen
-10,Neon,Ne,2,18,gas,Noble Gas
-11,Natrium,Na,3,1,solid,Alkali Metal
-12,Magnesium,Mg,3,2,solid,Alkaline Earth Metal
-13,Alumen,Al,3,13,solid,Metal
-14,Silicium,Si,3,14,solid,Metalloid
-15,Phosphorus,P,3,15,solid,Nonmetal
-16,Sulphur,S,3,16,solid,Nonmetal
-17,Clorum,Cl,3,17,gas,Halogen
-18,Argon,Ar,3,18,gas,Noble Gas
-19,Kalium,K,4,1,solid,Alkali Metal
-20,Calcium,Ca,4,2,solid,Alkaline Earth Metal
-21,Scandium,Sc,4,3,solid,Transition Metal
-22,Titanium,Ti,4,4,solid,Transition Metal
-23,Vanadium,V,4,5,solid,Transition Metal
-24,Chromium,Cr,4,6,solid,Transition Metal
-25,Manganum,Mn,4,7,solid,Transition Metal
-26,Ferrum,Fe,4,8,solid,Transition Metal
-27,Cobaltum,Co,4,9,solid,Transition Metal
-28,Niccolum,Ni,4,10,solid,Transition Metal
-29,Cuprum,Cu,4,11,solid,Transition Metal
-30,Zincum,Zn,4,12,solid,Transition Metal
-31,Galium,Ga,4,13,solid,Metal
-32,Germanium,Ge,4,14,solid,Metalloid
-33,Arsenicum,As,4,15,solid,Metalloid
-34,Selenium,Se,4,16,solid,Nonmetal
-35,Bromum,Br,4,17,liq,Halogen
-36,Krypton,Kr,4,18,gas,Noble Gas
-37,Rubidium,Rb,5,1,solid,Alkali Metal
-38,Strontium,Sr,5,2,solid,Alkaline Earth Metal
-39,Yttrium,Y,5,3,solid,Transition Metal
-40,Zirconium,Zr,5,4,solid,Transition Metal
-41,Niobium,Nb,5,5,solid,Transition Metal
-42,Molybdenum,Mo,5,6,solid,Transition Metal
-43,Technetium,Tc,5,7,artificial,Transition Metal
-44,Ruthenium,Ru,5,8,solid,Transition Metal
-45,Rhodium,Rh,5,9,solid,Transition Metal
-46,Palladium,Pd,5,10,solid,Transition Metal
-47,Argentum,Ag,5,11,solid,Transition Metal
-48,Cadmium,Cd,5,12,solid,Transition Metal
-49,Indium,In,5,13,solid,Metal
-50,Stannum,Sn,5,14,solid,Metal
-51,Stibium,Sb,5,15,solid,Metalloid
-52,Tellurium,Te,5,16,solid,Metalloid
-53,Iodum,I,5,17,solid,Halogen
-54,Xenon,Xe,5,18,gas,Noble Gas
-55,Caesium,Cs,6,1,solid,Alkali Metal
-56,Barium,Ba,6,2,solid,Alkaline Earth Metal
-57,Lanthanum,La,6,3,solid,Lanthanide
-58,Cerium,Ce,6,,solid,Lanthanide
-59,Praseodymium,Pr,6,,solid,Lanthanide
-60,Neodymium,Nd,6,,solid,Lanthanide
-61,Promethium,Pm,6,,artificial,Lanthanide
-62,Samarium,Sm,6,,solid,Lanthanide
-63,Europium,Eu,6,,solid,Lanthanide
-64,Gadolinium,Gd,6,,solid,Lanthanide
-65,Terbium,Tb,6,,solid,Lanthanide
-66,Dysprosium,Dy,6,,solid,Lanthanide
-67,Holmium,Ho,6,,solid,Lanthanide
-68,Erbium,Er,6,,solid,Lanthanide
-69,Thulium,Tm,6,,solid,Lanthanide
-70,Ytterbium,Yb,6,,solid,Lanthanide
-71,Lutetium,Lu,6,,solid,Lanthanide
-72,Hafnium,Hf,6,4,solid,Transition Metal
-73,Tantalum,Ta,6,5,solid,Transition Metal
-74,Wolframium,W,6,6,solid,Transition Metal
-75,Rhenium,Re,6,7,solid,Transition Metal
-76,Osmium,Os,6,8,solid,Transition Metal
-77,Iridium,Ir,6,9,solid,Transition Metal
-78,Platinum,Pt,6,10,solid,Transition Metal
-79,Aurum,Au,6,11,solid,Transition Metal
-80,Hydrargyrum,Hg,6,12,liq,Transition Metal
-81,Thallium,Tl,6,13,solid,Metal
-82,Plumbum,Pb,6,14,solid,Metal
-83,Bismuthum,Bi,6,15,solid,Metal
-84,Polonium,Po,6,16,solid,Metalloid
-85,Astatum,At,6,17,solid,Noble Gas
-86,Radon,Rn,6,18,gas,Alkali Metal
-87,Francium,Fr,7,1,solid,Alkaline Earth Metal
-88,Radium,Ra,7,2,solid,Actinide
-89,Actinium,Ac,7,3,solid,Actinide
-90,Thorium,Th,7,,solid,Actinide
-91,Protactinium,Pa,7,,solid,Actinide
-92,Uranium,U,7,,solid,Actinide
-93,Neptunium,Np,7,,artificial,Actinide
-94,Plutonium,Pu,7,,artificial,Actinide
-95,Americium,Am,7,,artificial,Actinide
-96,Curium,Cm,7,,artificial,Actinide
-97,Berkelium,Bk,7,,artificial,Actinide
-98,Californium,Cf,7,,artificial,Actinide
-99,Einsteinium,Es,7,,artificial,Actinide
-100,Fermium,Fm,7,,artificial,Actinide
-101,Mendelevium,Md,7,,artificial,Actinide
-102,Nobelium,No,7,,artificial,Actinide
-103,Lawrencium,Lr,7,,artificial,Actinide
-104,Rhuterfordium,Rf,7,4,artificial,Transactinide
-105,Dubnium,Db,7,5,artificial,Transactinide
-106,Seaborgium,Sg,7,6,artificial,Transactinide
-107,Bohrium,Bh,7,7,artificial,Transactinide
-108,Hassium,Hs,7,8,artificial,Transactinide
-109,Meitnerium,Mt,7,9,artificial,Transactinide
-110,Darmstadtium,Ds,7,10,artificial,Transactinide
-111,Roentgenium,Rg,7,11,artificial,Transactinide
-112,Copernicium,Cn,7,12,artificial,Transactinide
-113,Nihonium,Nh,7,13,artificial,Metal
-114,Flerovium,Fl,7,14,artificial,Transactinide
-115,Moscovium,Mc,7,15,artificial,Metal
-116,Livermorium,Lv,7,16,artificial,Transactinide
-117,Tennessine,Ts,7,17,artificial,Halogen
-118,Oganesson,Og,7,18,artificial,Noble Gas
+atomic_number,name,symbol,period,group,phase,type,de_name,en_name,es_name,fr_name,it_name,pt_name
+1,Hydrogenium,H,1,1,gas,Nonmetal,Wasserstoff,Hydrogen,Hidrógeno,Hydrogène,Idrogeno,Hidrogênio
+2,Helium,He,1,18,gas,Noble Gas,Helium,Helium,Helio,Hélium,Elio,Hélio
+3,Lithium,Li,2,1,solid,Alkali Metal,Lithium,Lithium,Litio,Lithium,Litio,Lítio
+4,Beryllium,Be,2,2,solid,Alkaline Earth Metal,Beryllium,Beryllium,Berilio,Béryllium,Berillio,Berílio
+5,Borium,B,2,13,solid,Metalloid,Bor,Boron,Boro,Bore,Boro,Boro
+6,Carbonium,C,2,14,solid,Nonmetal,"Kohlenstoff
+",Carbon,Carbono,Carbone,Carbonio,Carbono
+7,Nitrogenium,N,2,15,gas,Nonmetal,"Stickstoff
+",Nitrogen,Nitrógeno,Azote,Azoto,Nitrogênio
+8,Oxygenium,O,2,16,gas,Nonmetal,"Sauerstoff
+",Oxygen,Oxígeno,Oxygène,Ossigeno,Oxigênio
+9,Fluorum,F,2,17,gas,Halogen,Fluor,Fluorine,Flúor,Fluor,Fluoro,Flúor
+10,Neon,Ne,2,18,gas,Noble Gas,Neon,Neon,Neón,Néon,Neon,Neônio
+11,Natrium,Na,3,1,solid,Alkali Metal,Natrium,Sodium,Sodio,Sodium,Sodio,Sódio
+12,Magnesium,Mg,3,2,solid,Alkaline Earth Metal,Magnesium,Magnesium,Magnesio,Magnésium,Magnesio,Magnésio
+13,Alumen,Al,3,13,solid,Metal,Aluminium,Aluminum,Aluminio,Aluminium,Alluminio,Alumínio
+14,Silicium,Si,3,14,solid,Metalloid,Silicium,Silicon,Silicio,Silicium,Silicio,Silício
+15,Phosphorus,P,3,15,solid,Nonmetal,Phosphor,Phosphorus,Fósforo,Phosphore,Fosforo,Fósforo
+16,Sulphur,S,3,16,solid,Nonmetal,"Schwefel
+",Sulfur,Azufre,Soufre,Zolfo,Enxofre
+17,Clorum,Cl,3,17,gas,Halogen,Chlor,Chlorine,Cloro,Chlore,Cloro,Cloro
+18,Argon,Ar,3,18,gas,Noble Gas,Argon,Argon,Argón,Argon,Argon,Argônio
+19,Kalium,K,4,1,solid,Alkali Metal,Kalium,Potassium,Potasio,Potassium,Potassio,Potássio
+20,Calcium,Ca,4,2,solid,Alkaline Earth Metal,Calcium,Calcium,Calcio,Calcium,Calcio,Cálcio
+21,Scandium,Sc,4,3,solid,Transition Metal,Scandium,Scandium,Escandio,Scandium,Scandio,Escândio
+22,Titanium,Ti,4,4,solid,Transition Metal,Titan,Titanium,Titanio,Titane,Titanio,Titânio
+23,Vanadium,V,4,5,solid,Transition Metal,Vanadium,Vanadium,Vanadio,Vanadium,Vanadio,Vanádio
+24,Chromium,Cr,4,6,solid,Transition Metal,Chrom,Chromium,Cromo,Chrome,Cromo,Cromo
+25,Manganum,Mn,4,7,solid,Transition Metal,Mangan,Manganese,Manganeso,Manganèse,Manganese,Manganês
+26,Ferrum,Fe,4,8,solid,Transition Metal,"Eisen
+",Iron,Hierro,Fer,Ferro,Ferro
+27,Cobaltum,Co,4,9,solid,Transition Metal,Cobalt,Cobalt,Cobalto,Cobalt,Cobalto,Cobalto
+28,Niccolum,Ni,4,10,solid,Transition Metal,Nickel,Nickel,Níquel,Nickel,Nichel,Níquel
+29,Cuprum,Cu,4,11,solid,Transition Metal,"Kupfer
+",Copper,Cobre,Cuivre,Rame,Cobre
+30,Zincum,Zn,4,12,solid,Transition Metal,Zink,Zinc,Zinc,Zinc,Zinco,Zinco
+31,Galium,Ga,4,13,solid,Metal,Gallium,Gallium,Galio,Gallium,Gallio,Gálio
+32,Germanium,Ge,4,14,solid,Metalloid,Germanium,Germanium,Germanio,Germanium,Germanio,Germânio
+33,Arsenicum,As,4,15,solid,Metalloid,Arsen,Arsenic,Arsénico,Arsenic,Arsenico,Arsénio
+34,Selenium,Se,4,16,solid,Nonmetal,Selen,Selenium,Selenio,Sélénium,Selenio,Selénio
+35,Bromum,Br,4,17,liq,Halogen,Brom,Bromine,Bromo,Brome,Bromo,Bromo
+36,Krypton,Kr,4,18,gas,Noble Gas,Krypton,Krypton,Kriptón,Krypton,Kripton,Criptônio
+37,Rubidium,Rb,5,1,solid,Alkali Metal,Rubidium,Rubidium,Rubidio,Rubidium,Rubidio,Rubídio
+38,Strontium,Sr,5,2,solid,Alkaline Earth Metal,Strontium,Strontium,Estroncio,Strontium,Stronzio,Estrôncio
+39,Yttrium,Y,5,3,solid,Transition Metal,Yttrium,Yttrium,Itrio,Yttrium,Ittrio,Ítrio
+40,Zirconium,Zr,5,4,solid,Transition Metal,Zirconium,Zirconium,Zirconio,Zirconium,Zirconio,Zircônio
+41,Niobium,Nb,5,5,solid,Transition Metal,Niob,Niobium,Niobio,Niobium,Niobio,Nióbio
+42,Molybdenum,Mo,5,6,solid,Transition Metal,Molybdän,Molybdenum,Molibdeno,Molybdène,Molibdeno,Molibdénio
+43,Technetium,Tc,5,7,artificial,Transition Metal,Technetium,Technetium,Tecnecio,Technétium,Tecnezio,Tecnécio
+44,Ruthenium,Ru,5,8,solid,Transition Metal,Ruthenium,Ruthenium,Rutenio,Ruthénium,Rutenio,Rutênio
+45,Rhodium,Rh,5,9,solid,Transition Metal,Rhodium,Rhodium,Rodio,Rhodium,Rodio,Ródio
+46,Palladium,Pd,5,10,solid,Transition Metal,Palladium,Palladium,Paladio,Palladium,Palladio,Paládio
+47,Argentum,Ag,5,11,solid,Transition Metal,"Silber
+",Silver,Plata,Argent,Argento,Prata
+48,Cadmium,Cd,5,12,solid,Transition Metal,Cadmium,Cadmium,Cadmio,Cadmium,Cadmio,Cádmio
+49,Indium,In,5,13,solid,Metal,Indium,Indium,Indio,Indium,Indio,Índio
+50,Stannum,Sn,5,14,solid,Metal,"Zinn
+",Tin,Estaño,Étain,Stagno,Estanho
+51,Stibium,Sb,5,15,solid,Metalloid,"Antimon
+",Antimony,Antimonio,Antimoine,Antimonio,Antimônio
+52,Tellurium,Te,5,16,solid,Metalloid,Tellur,Tellurium,Teluro,Tellure,Tellurio,Telúrio
+53,Iodum,I,5,17,solid,Halogen,Iod,Iodine,Yodo,Iode,Iodio,Iodo
+54,Xenon,Xe,5,18,gas,Noble Gas,Xenon,Xenon,Xenón,Xénon,Xeno,Xenônio
+55,Caesium,Cs,6,1,solid,Alkali Metal,Caesium,Cesium,Cesio,Césium,Cesio,Césio
+56,Barium,Ba,6,2,solid,Alkaline Earth Metal,Barium,Barium,Bario,Baryum,Bario,Bário
+57,Lanthanum,La,6,3,solid,Lanthanide,Lanthan,Lanthanum,Lantano,Lanthane,Lantanio,Lantânio
+58,Cerium,Ce,6,,solid,Lanthanide,Cer,Cerium,Cerio,Cérium,Cerio,Cério
+59,Praseodymium,Pr,6,,solid,Lanthanide,Praseodym,Praseodymium,Praseodimio,Praséodyme,Praseodimio,Praseodímio
+60,Neodymium,Nd,6,,solid,Lanthanide,Neodym,Neodymium,Neodimio,Néodyme,Neodimio,Neodímio
+61,Promethium,Pm,6,,artificial,Lanthanide,Pro­methium,Promethium,Prometio,Prométhium,Promezio,Promécio
+62,Samarium,Sm,6,,solid,Lanthanide,Samarium,Samarium,Samario,Samarium,Samario,Samário
+63,Europium,Eu,6,,solid,Lanthanide,Europium,Europium,Europio,Europium,Europio,Európio
+64,Gadolinium,Gd,6,,solid,Lanthanide,Gadolinium,Gadolinium,Gadolinio,Gadolinium,Gadolinio,Gadolínio
+65,Terbium,Tb,6,,solid,Lanthanide,Terbium,Terbium,Terbio,Terbium,Terbio,Térbio
+66,Dysprosium,Dy,6,,solid,Lanthanide,Dysprosium,Dysprosium,Disprosio,Dysprosium,Disprosio,Disprósio
+67,Holmium,Ho,6,,solid,Lanthanide,Holmium,Holmium,Holmio,Holmium,Olmio,Hólmio
+68,Erbium,Er,6,,solid,Lanthanide,Erbium,Erbium,Erbio,Erbium,Erbio,Érbio
+69,Thulium,Tm,6,,solid,Lanthanide,Thulium,Thulium,Tulio,Thulium,Tulio,Túlio
+70,Ytterbium,Yb,6,,solid,Lanthanide,Ytterbium,Ytterbium,Iterbio,Ytterbium,Itterbio,Itérbio
+71,Lutetium,Lu,6,,solid,Lanthanide,Lutetium,Lutetium,Lutecio,Lutécium,Lutezio,Lutécio
+72,Hafnium,Hf,6,4,solid,Transition Metal,Hafnium,Hafnium,Hafnio,Hafnium,Afnio,Háfnio
+73,Tantalum,Ta,6,5,solid,Transition Metal,Tantal,Tantalum,Tantalio,Tantale,Tantalio,Tântalo
+74,Wolframium,W,6,6,solid,Transition Metal,Wolfram,Wolfram,Wolframio,Tungstène,Tungsteno,Tungstênio
+75,Rhenium,Re,6,7,solid,Transition Metal,Rhenium,Rhenium,Renio,Rhénium,Renio,Rênio
+76,Osmium,Os,6,8,solid,Transition Metal,Osmium,Osmium,Osmio,Osmium,Osmio,Ósmio
+77,Iridium,Ir,6,9,solid,Transition Metal,Iridium,Iridium,Iridio,Iridium,Iridio,Irídio
+78,Platinum,Pt,6,10,solid,Transition Metal,Platin,Platinum,Platino,Platine,Platino,Platina
+79,Aurum,Au,6,11,solid,Transition Metal,Gold,Gold,Oro,Or,Oro,Ouro
+80,Hydrargyrum,Hg,6,12,liq,Transition Metal,"Quecksilber
+",Mercury,Mercurio,Mercure,Mercurio,Mercúrio
+81,Thallium,Tl,6,13,solid,Metal,Thallium,Thallium,Talio,Thallium,Tallio,Tálio
+82,Plumbum,Pb,6,14,solid,Metal,"Blei
+",Lead,Plomo,Plomb,Piombo,Chumbo
+83,Bismuthum,Bi,6,15,solid,Metal,"Bismut
+",Bismuth,Bismuto,Bismuth,Bismuto,Bismuto
+84,Polonium,Po,6,16,solid,Metalloid,Polonium,Polonium,Polonio,Polonium,Polonio,Polônio
+85,Astatum,At,6,17,solid,Noble Gas,Astat,Astatine,Astato,Astate,Astato,Ástato
+86,Radon,Rn,6,18,gas,Alkali Metal,Radon,Radon,Radón,Radon,Radon,Rádon
+87,Francium,Fr,7,1,solid,Alkaline Earth Metal,Francium,Francium,Francio,Francium,Francio,Frâncio
+88,Radium,Ra,7,2,solid,Actinide,Radium,Radium,Radio,Radium,Radio,Rádio
+89,Actinium,Ac,7,3,solid,Actinide,Actinium,Actinium,Actinio,Actinium,Attinio,Actínio
+90,Thorium,Th,7,,solid,Actinide,Thorium,Thorium,Torio,Thorium,Torio,Tório
+91,Protactinium,Pa,7,,solid,Actinide,Protac­tinium,Protactinium,Protactinio,Protactinium,Protoattinio,Protactínio
+92,Uranium,U,7,,solid,Actinide,Uran,Uranium,Uranio,Uranium,Uranio,Urânio
+93,Neptunium,Np,7,,artificial,Actinide,Neptunium,Neptunium,Neptunio,Neptunium,Nettunio,Neptúnio
+94,Plutonium,Pu,7,,artificial,Actinide,Plutonium,Plutonium,Plutonio,Plutonium,Plutonio,Plutônio
+95,Americium,Am,7,,artificial,Actinide,Americium,Americium,Americio,Américium,Americio,Amerício
+96,Curium,Cm,7,,artificial,Actinide,Curium,Curium,Curio,Curium,Curio,Cúrio
+97,Berkelium,Bk,7,,artificial,Actinide,Berkelium,Berkelium,Berkelio,Berkélium,Berkelio,Berquélio
+98,Californium,Cf,7,,artificial,Actinide,Californium,Californium,Californio,Californium,Californio,Califórnio
+99,Einsteinium,Es,7,,artificial,Actinide,Einsteinium,Einsteinium,Einstenio,Einsteinium,Einsteinio,Einsténio
+100,Fermium,Fm,7,,artificial,Actinide,Fermium,Fermium,Fermio,Fermium,Fermio,Férmio
+101,Mendelevium,Md,7,,artificial,Actinide,Mende­levium,Mendelevium,Mendelevio,Mendélévium,Mendelevio,Mendelévio
+102,Nobelium,No,7,,artificial,Actinide,Nobelium,Nobelium,Nobelio,Nobélium,Nobelio,Nobélio
+103,Lawrencium,Lr,7,,artificial,Actinide,Lawren­cium,Lawrencium,Laurencio,Lawrencium,Laurenzio,Laurêncio
+104,Rhuterfordium,Rf,7,4,artificial,Transactinide,Ruther­fordium,Rutherfordium,Rutherfordio,Rutherfordium,Rutherfordio,Rutherfórdio
+105,Dubnium,Db,7,5,artificial,Transactinide,Dubnium,Dubnium,Dubnio,Dubnium,Dubnio,Dúbnio
+106,Seaborgium,Sg,7,6,artificial,Transactinide,Seaborgium,Seaborgium,Seaborgio,Seaborgium,Seaborgio,Seabórgio
+107,Bohrium,Bh,7,7,artificial,Transactinide,Bohrium,Bohrium,Bohrio,Bohrium,Bohrio,Bóhrio
+108,Hassium,Hs,7,8,artificial,Transactinide,Hassium,Hassium,Hassio,Hassium,Hassio,Hássio
+109,Meitnerium,Mt,7,9,artificial,Transactinide,Meitnerium,Meitnerium,Meitnerio,Meitnérium,Meitnerio,Meitnério
+110,Darmstadtium,Ds,7,10,artificial,Transactinide,Darm­stadtium,Darmstadtium,Darmstatio,Darmstadtium,Darmstadtio,Darmstácio
+111,Roentgenium,Rg,7,11,artificial,Transactinide,Roent­genium,Roentgenium,Roentgenio,Roentgenium,Roentgenio,Roentgénio
+112,Copernicium,Cn,7,12,artificial,Transactinide,Coper­nicium,Copernicium,Copernicio,Copernicium,Copernicio,Copernício
+113,Nihonium,Nh,7,13,artificial,Metal,Nihonium,Nihonium,Nihonio,Nihonium,Nihonio,Nipônio
+114,Flerovium,Fl,7,14,artificial,Metal,Flerovium,Flerovium,Flerovio,Flérovium,Flerovio,Fleróvio
+115,Moscovium,Mc,7,15,artificial,Metal,Moscovium,Moscovium,Moscovio,Moscovium,Moscovio,Moscóvio
+116,Livermorium,Lv,7,16,artificial,Metal,Liver­morium,Livermorium,Livermorio,Livermorium,Livermorio,Livermório
+117,Tennessine,Ts,7,17,artificial,Halogen,Tenness,Tennessine,Teneso,Tennesse,Tennesso,Tenesso
+118,Oganesson,Og,7,18,artificial,Noble Gas,Oganesson,Oganesson,Oganesón,Oganesson,Oganesson,Oganésson

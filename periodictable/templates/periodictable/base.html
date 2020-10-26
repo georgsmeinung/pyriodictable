@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,14 +11,29 @@
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/bootstrap-extension.min.css' %}">
 
-    <title>Pyriodic Table of Elements</title>
+    <title>{% translate "periodic_table_title" %}</title>
   </head>
   <body>
     <div class="container">
-      <nav class="navbar fixed-top bg-dark">  
-        <a class="navbar-brand" href="{% url 'periodictable:index' %}">Pyriodic Table of the Elements</a>
-      </nav>            
-    </div>
+      <nav class="navbar fixed-top text-light bg-dark">  
+        <span class="navbar-brand" ">{% translate "periodic_table_title" %}</span>
+        <!-- Example split danger button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-secondary">{% translate "display_language"%}</button>
+          <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="/setlang/de/"><img src="{% static 'imgs/de.png' %}"> {% translate "de_language" %}</a>
+            <a class="dropdown-item" href="/setlang/en/"><img src="{% static 'imgs/gb.png' %}"> {% translate "en_language" %}</a>
+            <a class="dropdown-item" href="/setlang/es/"><img src="{% static 'imgs/es.png' %}"> {% translate "es_language" %}</a>
+            <a class="dropdown-item" href="/setlang/fr/"><img src="{% static 'imgs/fr.png' %}"> {% translate "fr_language" %}</a>
+            <a class="dropdown-item" href="/setlang/it/"><img src="{% static 'imgs/it.png' %}"> {% translate "it_language" %}</a>
+            <a class="dropdown-item" href="/setlang/pt/"><img src="{% static 'imgs/br.png' %}"> {% translate "pt_language" %}</a>
+          </div>
+        </div>
+      </nav>   
+    </div><!--navbar-->
     <div class="content container ml-0 container-fluid">
         <br><br><br>
         <div class="row">

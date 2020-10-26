@@ -1,41 +1,44 @@
 {% extends 'periodictable/base.html' %}
+{% load dicthash %}
+{% load i18n %}
 
 {% block content %}
-<div class="card" style="width: 24rem;">
-  <div class="card-header">
-    <h1 class="card-title">{{element.symbol}}({{element.atomic_number}})</h1>
-    <h3 class="card-title">{{element.name}}</h3>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">
-      <table class="table table-borderless">
-        <tbody>
-            <tr>
-              <td><b>Atomic Number:</b></td>
-              <td>{{ element.atomic_number }}</td>
-            </tr>
-            <tr>
-              <td><b>Period:</b></td>
-              <td>{{ element.period }}</td>
-            </tr>
-            <tr>
-              <td><b>Group:</b></td>
-              <td>{{ element.group }}</td>
-            </tr>
-            <tr>
-              <td><b>Phase:</b></td>
-              <td>{{ element.phase }}</td>
-            </tr>
-            <tr>
-              <td><b>Type:</b></td>
-              <td>{{ element.elem_type }}</td>
-            </tr>
-        </tbody>
-      </table>
-    </li>
-    <li class="list-group-item">
-      <a href="{% url 'periodictable:index' %}" class="btn btn-primary">Back</a>
-    </li>
-  </ul>
-</div>
+    <table class="table table-borderless" style="background-color: {{ type_colors|hash:element.elem_type }};">
+      <tbody>
+        <tr>
+          <td>
+            <h3>{{ element.atomic_number }}</h3>
+            <h1>{{ element.symbol }}</h1>
+            <h4>{{ element.name }}</h2>  
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <table class="table table-borderless">
+      <tbody>
+          <tr>
+            <td><b>{% translate "label_atomic_number" %}</b></td>
+            <td>{{ element.atomic_number }}</td>
+          </tr>
+          <tr>
+            <td><b>{% translate "label_period" %}</b></td>
+            <td>{{ element.period }}</td>
+          </tr>
+          <tr>
+            <td><b>{% translate "label_group" %}</b></td>
+            <td>{{ element.group }}</td>
+          </tr>
+          <tr>
+            <td><b>{% translate "label_phase" %}</b></td>
+            <td>{{ element.phase }}</td>
+          </tr>
+          <tr>
+            <td><b>{% translate "label_type" %}</b></td>
+            <td>{{ element.elem_type }}</td>
+          </tr>
+      </tbody>
+    </table>
+
+    <a href="{% url 'periodictable:index' %}" class="btn btn-primary">{% translate "go_back" %}</a>
 {% endblock %}
