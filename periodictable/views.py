@@ -11,6 +11,7 @@ def index(request):
         elem.name = vars(elem)[curr_lang+"_name"]
     context = {
         'elements': element_list,
+        'curr_lang': curr_lang,
         'type_colors': {
             'Actinide': '#ff99cc',
             'Alkali Metal': '#ff6666',
